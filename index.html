@@ -13,8 +13,8 @@
   <body>
 
     <div class="position-absolute top-50 start-50 translate-middle">
-      <button id="button" class="btn btn-primary btn-lg" onclick="mulai()">Click Here!</button>
-      <div id="iloveyou" style="display: none;">
+      <button id="button" class="btn btn-primary btn-lg" onclick="mulai()">Klik ini dulu!</button>
+      <div id="happyBirthday" style="display: none;">
         <h2 class="text-center">Happy 23rd Birthday!&#127881; <br>Ade Suci Ramadhani <br> &#127803;&#127803;&#127803;
         </h2>
       </div>
@@ -24,7 +24,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
     <script type="text/javascript">
-      const author = 'Ardika';
+      const author = 'dikgobsmacked';
       document.getElementById('hati').innerHTML = `Made with &#10084;&#65039; by ${author}`;
       const swals = Swal.mixin({
         cancelButtonColor: '#d33',
@@ -36,8 +36,9 @@
         await swals.fire('Selamat Ulang Tahun ya!&#127874 udah makin tua aja nih');
         await swals.fire('Semoga makin sayang sama keluarga dan menjadi pribadi yang lebih baik lagi!');
         await swals.fire('Semoga hidupnya ga FLAT terus, ayo cari gelombangnya lagi wkwkwk &#127754');
+        await swals.fire('Hope you find your best version of yourself!');
         await swals.fire('Hope we can talk more ya! or maybe meet? wkwk');
-        await swals.fire('Sorry belum bisa kasih hadiah yang benar-benar berguna');
+        await swals.fire('dah habis gatau mau ngomong apa lagi');
         await swals.fire('Have fun today!!!');
         await swals.fire('Terakhir');
         await swals.fire('Coba klik emot hati dibawah');
@@ -45,7 +46,7 @@
 
       function hati(){
         document.getElementById('button').style = 'display: none;';
-        document.getElementById('iloveyou').style = '';
+        document.getElementById('happyBirthday').style = '';
         startConfetti();
       }
     </script>
